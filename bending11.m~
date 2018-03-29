@@ -46,10 +46,11 @@ while ss<=9
             f=1-2*M/r;
             f1=2*M/(r)^2;
             uphi=L/(r^2);
+            %htester=H0(s)
             H=H0(s)+A(ss)*t;
             ur=ur1;
             ut=[-(r*H*ur/sqrt(f))+sqrt([r^2*H^2*ur^2/f]+([ur^2/f]+[L^2/r^2])*(f-r^2*H^2))]/(f-r^2*H^2);  
-            while (phi<=pi)%condition for crossing horizontal line 
+            while (phi<=pi) %& r<2000%)   
                 %%%%%%%%%%%%%%%%%%%%%%%%%%
                 % Gamma Functions (determining the geometry)
                 AA=A(ss);
@@ -177,6 +178,7 @@ while ss<=9
             numb;
             totnum(s,ss)=numb;
             s=s+1;
+%            accel(s,ss)=A(ss);
     end
     A(ss+1)=A(ss)+dA
     ss=ss+1;
@@ -188,7 +190,9 @@ end
  xlswrite('comovpsi04.xls',comovpsi);
  xlswrite('speed.xls',speed);
  xlswrite('tspeed.xls',timespeed);
+% xlswrite('time.xls',time);
  xlswrite('hubble.xls',hubble);
+% xlswrite('accel.xls',accel);
  xlswrite('position.xls',position);
  xlswrite('fvalue.xls',fvalue);
  xlswrite('angular.xls',angularspeed);
