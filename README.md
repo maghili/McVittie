@@ -5,3 +5,7 @@ In this research we consider two types of observers, Static and Comoving which i
 We developed a Matlab code that shoots the light ray from the preassumed position of the source star and then follow the path of the light until it reaches to the otherside, where we assumed that the source, lens (black hole) and the observer are all aligned. If the light ray does not reach the location that is required, it iteratively changes the shooting angle until it reaches to the required location with some small tollorance `0.005`.
 
 ![Bending](https://github.com/maghili/McVittie/blob/master/Bending.png)
+
+Since the observation is done in a curved spacetime the regular `Euclidean` angles do not work, but in any case the change in this angle is shown here
+
+![Eucleadian](https://github.com/maghili/McVittie/blob/master/Ecleadian.pdf')
