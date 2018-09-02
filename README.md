@@ -8,4 +8,4 @@ We developed a Matlab code that shoots the light ray from the preassumed positio
 
 Since the observation is done in a curved spacetime the regular `Euclidean` angles do not work, but in any case the change in this angle is shown here
 
-![Eucleadian](https://github.com/maghili/McVittie/blob/master/Ecleadian.pdf')
+![Euclidean](https://github.com/maghili/McVittie/blob/master/Euclidean.pdf')
