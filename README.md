@@ -14,4 +14,6 @@ After making required transformations we can find the change of the angle based 
 
 ![Static](https://github.com/maghili/McVittie/blob/master/Static.png)
 
-![Comoving]((https://github.com/maghili/McVittie/blob/master/Comoving.png)
+Comoving is the closest choice to an observer sitting on the Earth and being dragged by the expansion
+
+![Comoving](https://github.com/maghili/McVittie/blob/master/Comoving.png)
