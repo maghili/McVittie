@@ -9,3 +9,9 @@ We developed a Matlab code that shoots the light ray from the preassumed positio
 Since the observation is done in a curved spacetime the regular `Euclidean` angles do not work, but in any case the change in this angle is shown here
 
 ![Euclidean](https://github.com/maghili/McVittie/blob/master/Euclidean.png)
+
+After making required transformations we can find the change of the angle based on the values of the constant rate `H` and the acceleration `A`.
+
+![Static](https://github.com/maghili/McVittie/blob/master/Static.png)
+
+![Comoving]((https://github.com/maghili/McVittie/blob/master/Comoving.png)
